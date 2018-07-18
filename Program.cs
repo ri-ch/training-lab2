@@ -85,7 +85,7 @@ namespace S3Lab
                 presignedRequest.Key = outputKey;
                 presignedRequest.Expires = DateTime.Now.AddMinutes(30);
 
-                urls.Add(client.GetPreSignedURL(presignedRequest);
+                urls.Add(client.GetPreSignedURL(presignedRequest));
             }
 
             return urls;
