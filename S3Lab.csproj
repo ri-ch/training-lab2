@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="awssdk.extensions.netcore.setup" Version="3.3.6" />
+    <PackageReference Include="awssdk.s3" Version="3.3.19" />
+    <PackageReference Include="microsoft.extensions.configuration" Version="2.1.1" />
+    <PackageReference Include="microsoft.extensions.configuration.json" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.json" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+</Project>
